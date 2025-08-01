@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C538CBA32E3D21C900DD75A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C538CB8A2E3D21C800DD75A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C538CB912E3D21C800DD75A0;
+			remoteInfo = CommanderChessClock;
+		};
+		C538CBAD2E3D21C900DD75A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C538CB8A2E3D21C800DD75A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C538CB912E3D21C800DD75A0;
+			remoteInfo = CommanderChessClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C538CB922E3D21C800DD75A0 /* CommanderChessClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommanderChessClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C538CBA22E3D21C900DD75A0 /* CommanderChessClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommanderChessClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C538CBAC2E3D21C900DD75A0 /* CommanderChessClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommanderChessClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C538CB942E3D21C800DD75A0 /* CommanderChessClock */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CommanderChessClock;
+			sourceTree = "<group>";
+		};
+		C538CBA52E3D21C900DD75A0 /* CommanderChessClockTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CommanderChessClockTests;
+			sourceTree = "<group>";
+		};
+		C538CBAF2E3D21C900DD75A0 /* CommanderChessClockUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CommanderChessClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C538CB8F2E3D21C800DD75A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C538CB9F2E3D21C900DD75A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C538CBA92E3D21C900DD75A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C538CB892E3D21C800DD75A0 = {
+			isa = PBXGroup;
+			children = (
+				C538CB942E3D21C800DD75A0 /* CommanderChessClock */,
+				C538CBA52E3D21C900DD75A0 /* CommanderChessClockTests */,
+				C538CBAF2E3D21C900DD75A0 /* CommanderChessClockUITests */,
+				C538CB932E3D21C800DD75A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C538CB932E3D21C800DD75A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C538CB922E3D21C800DD75A0 /* CommanderChessClock.app */,
+				C538CBA22E3D21C900DD75A0 /* CommanderChessClockTests.xctest */,
+				C538CBAC2E3D21C900DD75A0 /* CommanderChessClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C538CB912E3D21C800DD75A0 /* CommanderChessClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C538CBB62E3D21C900DD75A0 /* Build configuration list for PBXNativeTarget "CommanderChessClock" */;
+			buildPhases = (
+				C538CB8E2E3D21C800DD75A0 /* Sources */,
+				C538CB8F2E3D21C800DD75A0 /* Frameworks */,
+				C538CB902E3D21C800DD75A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C538CB942E3D21C800DD75A0 /* CommanderChessClock */,
+			);
+			name = CommanderChessClock;
+			packageProductDependencies = (
+			);
+			productName = CommanderChessClock;
+			productReference = C538CB922E3D21C800DD75A0 /* CommanderChessClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C538CBA12E3D21C900DD75A0 /* CommanderChessClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C538CBB92E3D21C900DD75A0 /* Build configuration list for PBXNativeTarget "CommanderChessClockTests" */;
+			buildPhases = (
+				C538CB9E2E3D21C900DD75A0 /* Sources */,
+				C538CB9F2E3D21C900DD75A0 /* Frameworks */,
+				C538CBA02E3D21C900DD75A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C538CBA42E3D21C900DD75A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C538CBA52E3D21C900DD75A0 /* CommanderChessClockTests */,
+			);
+			name = CommanderChessClockTests;
+			packageProductDependencies = (
+			);
+			productName = CommanderChessClockTests;
+			productReference = C538CBA22E3D21C900DD75A0 /* CommanderChessClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C538CBAB2E3D21C900DD75A0 /* CommanderChessClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C538CBBC2E3D21C900DD75A0 /* Build configuration list for PBXNativeTarget "CommanderChessClockUITests" */;
+			buildPhases = (
+				C538CBA82E3D21C900DD75A0 /* Sources */,
+				C538CBA92E3D21C900DD75A0 /* Frameworks */,
+				C538CBAA2E3D21C900DD75A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C538CBAE2E3D21C900DD75A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C538CBAF2E3D21C900DD75A0 /* CommanderChessClockUITests */,
+			);
+			name = CommanderChessClockUITests;
+			packageProductDependencies = (
+			);
+			productName = CommanderChessClockUITests;
+			productReference = C538CBAC2E3D21C900DD75A0 /* CommanderChessClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C538CB8A2E3D21C800DD75A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C538CB912E3D21C800DD75A0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C538CBA12E3D21C900DD75A0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C538CB912E3D21C800DD75A0;
+					};
+					C538CBAB2E3D21C900DD75A0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C538CB912E3D21C800DD75A0;
+					};
+				};
+			};
+			buildConfigurationList = C538CB8D2E3D21C800DD75A0 /* Build configuration list for PBXProject "CommanderChessClock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C538CB892E3D21C800DD75A0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C538CB932E3D21C800DD75A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C538CB912E3D21C800DD75A0 /* CommanderChessClock */,
+				C538CBA12E3D21C900DD75A0 /* CommanderChessClockTests */,
+				C538CBAB2E3D21C900DD75A0 /* CommanderChessClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C538CB902E3D21C800DD75A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C538CBA02E3D21C900DD75A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C538CBAA2E3D21C900DD75A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C538CB8E2E3D21C800DD75A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C538CB9E2E3D21C900DD75A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C538CBA82E3D21C900DD75A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C538CBA42E3D21C900DD75A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C538CB912E3D21C800DD75A0 /* CommanderChessClock */;
+			targetProxy = C538CBA32E3D21C900DD75A0 /* PBXContainerItemProxy */;
+		};
+		C538CBAE2E3D21C900DD75A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C538CB912E3D21C800DD75A0 /* CommanderChessClock */;
+			targetProxy = C538CBAD2E3D21C900DD75A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C538CBB42E3D21C900DD75A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C538CBB52E3D21C900DD75A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C538CBB72E3D21C900DD75A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CommanderChessClock/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FX2Z64539;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccc.CommanderChessClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C538CBB82E3D21C900DD75A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CommanderChessClock/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FX2Z64539;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccc.CommanderChessClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C538CBBA2E3D21C900DD75A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FX2Z64539;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccc.CommanderChessClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommanderChessClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CommanderChessClock";
+			};
+			name = Debug;
+		};
+		C538CBBB2E3D21C900DD75A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FX2Z64539;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccc.CommanderChessClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommanderChessClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CommanderChessClock";
+			};
+			name = Release;
+		};
+		C538CBBD2E3D21C900DD75A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FX2Z64539;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccc.CommanderChessClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CommanderChessClock;
+			};
+			name = Debug;
+		};
+		C538CBBE2E3D21C900DD75A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FX2Z64539;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ccc.CommanderChessClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CommanderChessClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C538CB8D2E3D21C800DD75A0 /* Build configuration list for PBXProject "CommanderChessClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C538CBB42E3D21C900DD75A0 /* Debug */,
+				C538CBB52E3D21C900DD75A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C538CBB62E3D21C900DD75A0 /* Build configuration list for PBXNativeTarget "CommanderChessClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C538CBB72E3D21C900DD75A0 /* Debug */,
+				C538CBB82E3D21C900DD75A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C538CBB92E3D21C900DD75A0 /* Build configuration list for PBXNativeTarget "CommanderChessClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C538CBBA2E3D21C900DD75A0 /* Debug */,
+				C538CBBB2E3D21C900DD75A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C538CBBC2E3D21C900DD75A0 /* Build configuration list for PBXNativeTarget "CommanderChessClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C538CBBD2E3D21C900DD75A0 /* Debug */,
+				C538CBBE2E3D21C900DD75A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C538CB8A2E3D21C800DD75A0 /* Project object */;
+}

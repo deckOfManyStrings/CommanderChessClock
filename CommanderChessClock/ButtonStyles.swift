@@ -102,14 +102,10 @@ struct PassTurnButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.system(size: 16, weight: .semibold))
-            .foregroundColor(.black)
+            .foregroundColor(.white)
             .padding(.horizontal, 20)
             .padding(.vertical, 10)
-            .background(
-                Capsule()
-                    .fill(Color.white)
-                    .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
-            )
+            .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
             .applyButtonAnimation(configuration.isPressed)
     }
 }
@@ -118,14 +114,10 @@ struct StartGameButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(.system(size: 16, weight: .semibold))
-            .foregroundColor(.black)
+            .foregroundColor(.green)
             .padding(.horizontal, 20)
             .padding(.vertical, 10)
-            .background(
-                Capsule()
-                    .fill(Color.green)
-                    .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
-            )
+            .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
             .applyButtonAnimation(configuration.isPressed)
     }
 }

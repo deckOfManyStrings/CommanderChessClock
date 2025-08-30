@@ -20,6 +20,9 @@ class GameState: ObservableObject {
     @Published var isPaused: Bool = false
     @Published var clockEnabled: Bool = false
     
+    // Life display modes for each player
+    @Published var playerDisplayModes: [LifeDisplayMode] = [.life, .life, .life, .life]
+    
     // Call Time feature
     @Published var isTimingPlayer: Bool = false
     @Published var timedPlayerIndex: Int? = nil
@@ -36,7 +39,63 @@ class GameState: ObservableObject {
     
     private func setupPlayers() {
         players = (0..<totalPlayers).map { _ in Player() }
+        playerDisplayModes = Array(repeating: .life, count: totalPlayers)
     }
+    
+    // MARK: - Commander Damage Functions
+    
+    func cycleDisplayMode(for playerIndex: Int) {
+        let currentMode = playerDisplayModes[playerIndex]
+        let allModes = LifeDisplayMode.allCases
+        let currentIndex = allModes.firstIndex(of: currentMode) ?? 0
+        let nextIndex = (currentIndex + 1) % allModes.count
+        playerDisplayModes[playerIndex] = allModes[nextIndex]
+    }
+    
+    func getDisplayedValue(for playerIndex: Int) -> Int {
+        let displayMode = playerDisplayModes[playerIndex]
+        switch displayMode {
+        case .life:
+            return players[playerIndex].life
+        default:
+            let otherPlayerIndex = displayMode.getOtherPlayerIndex(for: playerIndex)
+            return players[playerIndex].commanderDamage[otherPlayerIndex]
+        }
+    }
+    
+    func getDisplayTitle(for playerIndex: Int) -> String {
+        return playerDisplayModes[playerIndex].title(for: playerIndex)
+    }
+    
+    func incrementDisplayedValue(for playerIndex: Int) {
+        let displayMode = playerDisplayModes[playerIndex]
+        switch displayMode {
+        case .life:
+            players[playerIndex].life += 1
+        default:
+            let otherPlayerIndex = displayMode.getOtherPlayerIndex(for: playerIndex)
+            players[playerIndex].commanderDamage[otherPlayerIndex] += 1
+            // Commander damage also reduces life
+            players[playerIndex].life = max(0, players[playerIndex].life - 1)
+        }
+    }
+    
+    func decrementDisplayedValue(for playerIndex: Int) {
+        let displayMode = playerDisplayModes[playerIndex]
+        switch displayMode {
+        case .life:
+            players[playerIndex].life = max(0, players[playerIndex].life - 1)
+        default:
+            let otherPlayerIndex = displayMode.getOtherPlayerIndex(for: playerIndex)
+            if players[playerIndex].commanderDamage[otherPlayerIndex] > 0 {
+                players[playerIndex].commanderDamage[otherPlayerIndex] -= 1
+                // Restore life when reducing commander damage
+                players[playerIndex].life += 1
+            }
+        }
+    }
+    
+    // MARK: - Existing Functions (updated to use new increment/decrement)
     
     func startGame() {
         guard clockEnabled else { return }
@@ -142,14 +201,6 @@ class GameState: ObservableObject {
             priorityHeld = true
             priorityPlayerIndex = playerIndex
         }
-    }
-    
-    func incrementLife(for playerIndex: Int) {
-        players[playerIndex].life += 1
-    }
-    
-    func decrementLife(for playerIndex: Int) {
-        players[playerIndex].life = max(0, players[playerIndex].life - 1)
     }
     
     func formattedTime(for playerIndex: Int) -> String {

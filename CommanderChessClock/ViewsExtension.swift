@@ -40,37 +40,19 @@ extension View {
     
     @ViewBuilder
     func applyNavigationStyle() -> some View {
-        if #available(iOS 14.0, *) {
-            self.navigationBarTitleDisplayMode(.inline)
-                .navigationBarHidden(true)
-        } else {
-            self.navigationBarTitle("", displayMode: .inline)
-                .navigationBarHidden(true)
-        }
+        self.navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
     }
     
     @ViewBuilder
     func applyAlert(isPresented: Binding<Bool>, onReset: @escaping () -> Void) -> some View {
-        if #available(iOS 15.0, *) {
-            self.alert("Reset Game?", isPresented: isPresented) {
-                Button("Cancel", role: .cancel) { }
-                Button("Reset", role: .destructive) {
-                    onReset()
-                }
-            } message: {
-                Text("This will reset all player life totals to 40 and restart all timers. This action cannot be undone.")
+        self.alert("Reset Game?", isPresented: isPresented) {
+            Button("Cancel", role: .cancel) { }
+            Button("Reset", role: .destructive) {
+                onReset()
             }
-        } else {
-            self.alert(isPresented: isPresented) {
-                Alert(
-                    title: Text("Reset Game?"),
-                    message: Text("This will reset all player life totals to 40 and restart all timers. This action cannot be undone."),
-                    primaryButton: .destructive(Text("Reset")) {
-                        onReset()
-                    },
-                    secondaryButton: .cancel()
-                )
-            }
+        } message: {
+            Text("This will reset all player life totals to 40 and restart all timers. This action cannot be undone.")
         }
     }
     
